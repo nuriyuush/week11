@@ -1,0 +1,4 @@
+1) In the output of the 1st program we can see that "Hello" was printed 2 times, because the buffer ended in a different process. 
+
+2) In the output of the 2nd program "Hello" was printed only once. 
+"\n" in printf("Hello\n") ended the buffer and fork doesn't copied "Hello" again. 
